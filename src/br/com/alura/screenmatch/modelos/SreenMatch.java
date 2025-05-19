@@ -2,20 +2,33 @@ package br.com.alura.screenmatch.modelos;
 
 public class SreenMatch {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
-        Filme favorito = new Filme();
+        Serie serie = new Serie();
+        Filme filme = new Filme();
 
-        favorito.setNome("The Matrix");
-        favorito.setAnoDeLancamento(1999);
-        favorito.setDuracaoEmMinutos(135);
-        favorito.setIncluidoNoPlano(true);
+        filme.setNome("Alto da Compadecida ");
+        filme.setDiretor("Ariano Suassuna");
+        filme.setAnoDeLancamento(2000);
+        filme.setDuracaoEmMinutos(158);
+        filme.setIncluidoNoPlano(true);
 
-        favorito.exibeFichaTecnica();
-        favorito.avalia(9);
-        favorito.avalia(8);
-        favorito.avalia(9);
+        filme.exibeFichaTecnica();
+        filme.avalia(8);
+        filme.avalia(8.5);
+        filme.avalia(9.3);
 
-        System.out.println("Média de avaliações do filme: " +favorito.pegaMedia());
+        System.out.println("A avaliação do Filme: " + filme.getTotalDeAvaliacoes());
+        System.out.println("-----------------------------------------------" );
+
+        serie.setNome("Game of Thrones");
+        serie.setIncluidoNoPlano(true);
+        serie.setAnoDeLancamento(2011);
+        serie.setEpsodiosPorTemporadas(10);
+        serie.setTemporadas(8);
+        serie.setMinutosPorEpisodio(92);
+
+        //serie.exibeFichaTecnica();
+        System.out.println(serie.toString());
+
     }
 }
 
