@@ -28,6 +28,26 @@ public class SreenMatch {
 
         //serie.exibeFichaTecnica();
         System.out.println(serie.toString());
+        
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(filme);
+        Filme novoFilme = new Filme();
+
+        novoFilme.setNome("Lilo e Stich");
+        novoFilme.setDiretor("Disney");
+        novoFilme.setAnoDeLancamento(2025);
+        novoFilme.setDuracaoEmMinutos(94);
+        novoFilme.setIncluidoNoPlano(true);
+
+        novoFilme.exibeFichaTecnica();
+        novoFilme.avalia(6);
+        novoFilme.avalia(4.5);
+        novoFilme.avalia(7.3);
+
+        listaDeFilmes.add(novoFilme);
+        System.out.println("Tamanho da lista " + listaDeFilmes.size());
+        System.out.println("Primeiro Filme é: " + listaDeFilmes.get(0).toString());
+        System.out.println("\nSegundo Filme é: " + listaDeFilmes.get(1).toString());
 
     }
 }
