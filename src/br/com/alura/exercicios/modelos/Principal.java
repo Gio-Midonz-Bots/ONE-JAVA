@@ -1,4 +1,4 @@
-package br.com.alura.desafio.contabancaria.modelos;
+package br.com.alura.exercicios.modelos;
 
 public class Principal {
     public static void main(String[] args) {

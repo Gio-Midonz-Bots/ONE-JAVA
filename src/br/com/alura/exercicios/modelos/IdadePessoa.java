@@ -1,4 +1,4 @@
-package br.com.alura.desafio.contabancaria.modelos;
+package br.com.alura.exercicios.modelos;
 
 public class IdadePessoa {
         private String nome;

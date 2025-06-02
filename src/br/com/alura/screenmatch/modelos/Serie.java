@@ -2,9 +2,13 @@ package br.com.alura.screenmatch.modelos;
 
 public class Serie extends Titulo {
     private int temporadas;
-    private int epsodiosPorTemporadas;
     private boolean ativa;
+    private int episodiosPorTemporada;
     private int minutosPorEpisodio;
+
+    public Serie(String nome, int anoDeLancamento) {
+        super(nome, anoDeLancamento);
+    }
 
     public int getTemporadas() {
         return temporadas;
@@ -14,20 +18,20 @@ public class Serie extends Titulo {
         this.temporadas = temporadas;
     }
 
-    public int getEpsodiosPorTemporadas() {
-        return epsodiosPorTemporadas;
-    }
-
-    public void setEpsodiosPorTemporadas(int epsodiosPorTemporadas) {
-        this.epsodiosPorTemporadas = epsodiosPorTemporadas;
-    }
-
     public boolean isAtiva() {
         return ativa;
     }
 
     public void setAtiva(boolean ativa) {
         this.ativa = ativa;
+    }
+
+    public int getEpisodiosPorTemporada() {
+        return episodiosPorTemporada;
+    }
+
+    public void setEpisodiosPorTemporada(int episodiosPorTemporada) {
+        this.episodiosPorTemporada = episodiosPorTemporada;
     }
 
     public int getMinutosPorEpisodio() {
@@ -40,17 +44,6 @@ public class Serie extends Titulo {
 
     @Override
     public int getDuracaoEmMinutos() {
-        return temporadas * epsodiosPorTemporadas * minutosPorEpisodio;
-    }
-
-    @Override
-    public String toString() {
-        return "Nome do Série:" + getNome() +
-                "\nAno de lançamento: " + getAnoDeLancamento()+
-                "\nQuantidade de Temporadas: " + temporadas+
-                "\nEpsodios por temporadas: " + epsodiosPorTemporadas +
-                "\nMinutos por episodios: " + minutosPorEpisodio +
-                "\nDuração em minutos: " + getDuracaoEmMinutos();
-
+        return temporadas * episodiosPorTemporada * minutosPorEpisodio;
     }
 }

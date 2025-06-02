@@ -1,3 +1,5 @@
+package br.com.alura.exercicios.modelos;
+
 import java.util.Scanner;
 
 public class ConversoDeMoedas {
