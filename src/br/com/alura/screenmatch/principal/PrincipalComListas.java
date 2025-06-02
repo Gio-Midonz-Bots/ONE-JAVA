@@ -5,6 +5,8 @@ import br.com.alura.screenmatch.modelos.Serie;
 import br.com.alura.screenmatch.modelos.Titulo;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class PrincipalComListas {
     public static void main(String[] args) {
@@ -30,5 +32,18 @@ public class PrincipalComListas {
             }
 
         }
+
+        ArrayList<String> buscarPorArtistas = new ArrayList<>();
+        buscarPorArtistas.add("Doja Cat");
+        buscarPorArtistas.add("Zelia");
+        buscarPorArtistas.add("Everton");
+        buscarPorArtistas.add("Matheus Reis");
+        buscarPorArtistas.add("Giovanna Midonz");
+        Collections.sort(buscarPorArtistas);
+        for(int i=0; i<buscarPorArtistas.size();i++){
+            System.out.println(buscarPorArtistas.get(i));
+        }
+
+
     }
 }
