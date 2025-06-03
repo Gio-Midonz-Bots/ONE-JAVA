@@ -46,8 +46,8 @@ public class PrincipalComListas {
         }
 
         lista.sort(Comparator.comparing(Titulo::getAnoDeLancamento));
-            System.out.println("-------DEPOIS de UTILIZAR COMPARATOR-------");
         for (Titulo i: lista) {
+            System.out.println("-------DEPOIS de UTILIZAR COMPARATOR-------");
             System.out.println(i.toString());
         }
     }
