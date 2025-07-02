@@ -1,4 +1,4 @@
-package br.com.alura.limitedecartãocredito.model;
+package br.com.POOalura.limitedecartãocredito.model;
 
 import java.util.ArrayList;
 import java.util.List;

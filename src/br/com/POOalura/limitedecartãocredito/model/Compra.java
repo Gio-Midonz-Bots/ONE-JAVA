@@ -1,4 +1,4 @@
-package br.com.alura.limitedecartãocredito.model;
+package br.com.POOalura.limitedecartãocredito.model;
 
 public class Compra {
     private String  descricao;

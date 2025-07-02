@@ -1,4 +1,4 @@
-package br.com.alura.exercicios.modelos;
+package br.com.POOalura.exercicios.modelos;
 
 public class Principal {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package br.com.alura.limitedecartãocredito.principal;
+package br.com.POOalura.limitedecartãocredito.principal;
 
-import br.com.alura.limitedecartãocredito.model.CartaoDeCredito;
-import br.com.alura.limitedecartãocredito.model.Compra;
+import br.com.POOalura.limitedecartãocredito.model.CartaoDeCredito;
+import br.com.POOalura.limitedecartãocredito.model.Compra;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package br.com.alura.exercicios.modelos;
+package br.com.POOalura.exercicios.modelos;
 
 public class IdadePessoa {
         private String nome;

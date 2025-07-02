@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.modelos;
+package br.com.POOalura.screenmatch.modelos;
 
 import com.google.gson.annotations.SerializedName;
 

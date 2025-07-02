@@ -1,10 +1,10 @@
-package br.com.alura.screenmatch.principal;
+package br.com.POOalura.screenmatch.principal;
 
-import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
-import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
-import br.com.alura.screenmatch.modelos.Episodio;
-import br.com.alura.screenmatch.modelos.Filme;
-import br.com.alura.screenmatch.modelos.Serie;
+import br.com.POOalura.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.POOalura.screenmatch.calculos.FiltroRecomendacao;
+import br.com.POOalura.screenmatch.modelos.Episodio;
+import br.com.POOalura.screenmatch.modelos.Filme;
+import br.com.POOalura.screenmatch.modelos.Serie;
 import java.util.ArrayList;
 
 public class Principal {
