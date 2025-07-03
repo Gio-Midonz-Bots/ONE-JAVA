@@ -12,35 +12,35 @@ Neste curso, tive a oportunidade de mergulhar no mundo do JavaScript e explorar 
 ## :wrench: Tecnologias utilizadas
  
 <div style="display: flex;">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" style="margin-right: 20px">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" style="margin-right: 20px">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" style="margin-right: 20px"/>
-
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50" style="margin-right: 20px">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50" style="margin-right: 20px">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50" style="margin-right: 20px"/>
+<img align="center" alt="Gio-Java" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
           
 </div>
 
 
 
-## :rocket: Rodar os codigos na sua maquina
+##  Rodar os codigos na sua maquina
 <h6> 👣 Passo-a-Passo</h6>
 
 ```bash
   # Crie uma pasta no seu computador 
-  $ mKdir One---OracleNextEducation
+  $ mKdir ONE-JAVA
 ```
 
 ```bash
   # Entre na pasta clonada
-  $ cd One---OracleNextEducation
+  $ cd ONE-JAVA
 ```
 
 ```bash
   # Clone o Repositório
-  $ git clone https://github.com/giovannamidonz/One---OracleNextEducation.git
+  $ git clone https://github.com/giovannamidonz/ONE-JAVA.git
 ```
 ```bash
   # Entre na pasta clonada
-  $ cd One---OracleNextEducation
+  $ cd ONE-JAVA
 ```
 
 ```bash
